@@ -1,5 +1,4 @@
-import { Button, Button2 } from "@/components/button";
-import { MagneticButton } from "@/components/magnetic-button";
+import { UseTransform } from "@/components/use-transform";
 
 export default function Home() {
   return (
@@ -13,7 +12,8 @@ export default function Home() {
       className="flex flex-col gap-14 perspective-[1000px] preserve-3d flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       {/* <Button />
       <Button2 /> */}
-      <MagneticButton />
+      {/* <MagneticButton /> */}
+      <UseTransform />
     </div>
   );
 }

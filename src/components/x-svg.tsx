@@ -38,7 +38,7 @@ export function XSvg() {
         fill="none"
         viewBox="0 0 480 490"
         xmlns="http://www.w3.org/2000/svg"
-        className="h-auto w-full max-w-[408px]"
+        className="h-auto w-full max-w-102"
       >
         <defs>
           <motion.radialGradient
